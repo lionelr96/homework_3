@@ -29,7 +29,7 @@ h1 {
 	color: #c12258;
 	font-size: 2em;
 	text-align: center;
-	line-height: 2em;
+	line-height: 2;
 	/*flag*/
 }
 
@@ -45,6 +45,7 @@ a {
 	font-size: 16px;
 	color: #b21f50;
 	text-decoration: underline;
+	text-decoration-style: wavy;
 }
 
 table {
@@ -99,5 +100,6 @@ footer {
 	text-align: center;
 	color: #FFFFFF;
 	min-height: 75px;
-	position: absolute;
+	position: relative;
+	bottom: 0;
 }
