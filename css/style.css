@@ -76,11 +76,11 @@ td {
 	border-top: 2px solid black;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(even) {
 	background-color: #d1d1d1;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
 	background-color: transparent;
 }
 
@@ -94,7 +94,7 @@ tr:hover {
 
 thead tr:first-child th:first-child {}
 
-footer {
+footer p {
 	width: 100%;
 	background: #000000;
 	text-align: center;
