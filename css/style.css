@@ -104,12 +104,16 @@ thead tr:first-child th:first-child {}
 
 footer {
 	min-height: 75px;
-
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	position: fixed;
 }
 
 footer p {
 	width: 100%;
-	background: #000000;
+	background-color: #000000;
 	text-align: center;
 	color: #FFFFFF;
 	min-height: 75px;
